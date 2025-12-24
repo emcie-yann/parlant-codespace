@@ -1,8 +1,9 @@
 import asyncio
 import parlant.sdk as p
 from dotenv import load_dotenv
-
 load_dotenv()
+
+
 
 async def main():
   async with p.Server(
