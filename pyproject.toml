@@ -1,18 +1,10 @@
 [project]
 name = "parlant-codespace"
 version = "0.1.0"
-description = ""
-authors = [
-    {name = "yannemcie",email = "yann@emcie.co"}
-]
+description = "Add your description here"
 readme = "README.md"
-[tool.poetry.dependencies]
-python = ">=3.10,<3.14"
-
-parlant = {extras = ["pocketbase"], version = "^3.0.4"}
-requests = "^2.31.0"
-types-requests = "^2.32.4.20250913"
-
-[build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.10"
+dependencies = [
+    # Install Parlant directly from Git (develop branch)
+    "parlant @ git+https://github.com/emcie-co/parlant.git@develop"
+]
