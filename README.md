@@ -1,1 +1,0 @@
-parlant = { git = "https://github.com/emcie-co/parlant", branch = "develop" }
